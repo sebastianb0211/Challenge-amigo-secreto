@@ -27,6 +27,7 @@ function agregarAmigo(){
         error.innerHTML = "";
         errorAmigo.innerHTML = ""
         nuevoJuego.removeAttribute("disabled")
+        resultado.innerHTML = ""
     }
    
 
