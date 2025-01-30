@@ -163,9 +163,21 @@ ul {
 }
 .name-list{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
     height: 50%;
     
+    
+}
+li:hover{
+    background-color:purple;
+    cursor: pointer;
+
+}
+li{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#4B69FD;
+    color: white;
 }
